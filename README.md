@@ -1,5 +1,7 @@
 # loadtest4j-example-scala
 
+[![Build Status](https://travis-ci.com/loadtest4j/loadtest4j-example-scala.svg?branch=master)](https://travis-ci.com/loadtest4j/loadtest4j-example-scala)
+
 A working example of [loadtest4j](https://www.loadtest4j.org) in Scala and SBT.
 
 ## Usage
