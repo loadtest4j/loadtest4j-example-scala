@@ -18,6 +18,6 @@ class ExampleLoadSpec extends LoadSpec with Matchers {
   }
 
   it should "meet the p90 Response Time threshold" in {
-    result.getResponseTime.getPercentile(90) should be <= Duration.ofMillis(500)
+    result.getResponseTime.getPercentile(90.0) should be <= Duration.ofMillis(500)
   }
 }
