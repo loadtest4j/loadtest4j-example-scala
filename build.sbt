@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
   // loadtest4j dependency
   //
 
-  "org.loadtest4j.drivers" % "loadtest4j-gatling" % "0.7.0" % "test,lt"
+  "org.loadtest4j.drivers" % "loadtest4j-gatling" % "0.9.0" % "test,lt"
 )
 
 //
